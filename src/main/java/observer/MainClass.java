@@ -9,7 +9,8 @@ import observer.subjects.Subject;
 
 public class MainClass
 {
-
+    //subject stores collection of observers. When state in subject is changed, we inform all subscribers (observers)
+    //about change
     public static void main(String[] args)
     {
         Subject lewandowski = new LewandowskiSubject();
